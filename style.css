@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color:#000;
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center{
+    height: 130px;
+    width: 100px;
+    /* background-color: rgb(15, 197, 197); */
+    text-align: center;
+}
+.btn{
+    height: 35px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
